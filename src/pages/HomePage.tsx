@@ -22,7 +22,7 @@ const HomePage = () => {
     const handleClick = (userName : string) => {
         fetchRepos(userName);
     }
-    
+
     return (
         <div>
             {isError && <p>Error</p>}
